@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="Redis Server" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Users\valerik\IdeaProjects\server\common\common-test\target\classes\redis-server\startRedis.bat" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/valerik/IdeaProjects/server/common/common-test/target/classes/redis-server" />
+    </exec>
+  </tool>
+  <tool name="JPublisher" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\oracle\product\11.2.0\client_1\BIN\jpub.exe" />
+      <option name="PARAMETERS" value="-input=$FileName$ -user=LIVE_VALERIK/LIVE --classpath=.;%ORACLE_HOME%\sqlj\lib\dbwsa.jar;%ORACLE_HOME%\jdbc\lib\ojdbc14.jar;%ORACLE_HOME%\jdbc\lib\orai18n.jar;%ORACLE_HOME%\sqlj\lib\translator.jar;%ORACLE_HOME%\sqlj\lib\runtime12.jar;%ORACLE_HOME%\oc4j\sqlj\lib\runtime12ee.jar;%ORACLE_HOME%\lib\xmlparserv2.jar" />
+      <option name="WORKING_DIRECTORY" value="C:/oracle/product/11.2.0/client_1/BIN" />
+    </exec>
+  </tool>
+</toolSet>
